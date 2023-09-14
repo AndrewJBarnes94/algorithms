@@ -1,7 +1,7 @@
 public class BubbleSorter {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 3, 4};
-        sort(arr);
+        bubbleSort(arr);
         
         // Print the sorted array
         for (int num : arr) {
@@ -28,7 +28,7 @@ public class BubbleSorter {
     }
     */
 
-    public static void sort(int[] arr) {
+    public static void bubbleSort(int[] arr) {
         int arrLength = arr.length;
         boolean swapped;
         do {
